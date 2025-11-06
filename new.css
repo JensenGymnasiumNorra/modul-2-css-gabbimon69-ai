@@ -1,0 +1,73 @@
+*{margin: 0;
+    padding: 0;}
+h1{font-size: 84px;
+text-align: center;}
+ul{
+    border: 20px double black;
+    padding: 5px;
+    font-weight: 600;
+    font-size: xx-large;
+    list-style-position: inside;
+    text-align: center;
+}
+header{background-color: red;
+width: 100%;
+position: fixed;}
+footer{text-align: center; 
+font-size: x-large; 
+background-color: blue;
+border: 10px double black;
+height: 10%;
+position: fixed;
+bottom: 0;
+width: 100%;}
+img{
+width: 70vh;
+border: 15px double black;
+margin-top: 10%;
+}
+p{font-size: xx-large;
+}
+.title{position: sticky;
+height: 27.5%;}
+.slot{
+display: flex;
+align-items: center;
+justify-content: center;}
+.flex{
+    display: flex;
+justify-content: space-around;
+border: 5px double black;
+height: 50%;
+}
+.Reasons{
+    max-width: 500px;
+    margin-top: 14%;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.helpme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 390px;
+    color: white;
+    margin-top: -30px;
+}
+.needhelp{
+    max-width: 800px;
+}
+body{
+    min-height: 100vh;
+}
+.color{
+    background-color: red;
+    min-height: 70vh;
+    min-width: 100%;
+    background: linear-gradient(to bottom, red, blue);
+}
+a{
+    color: white;
+}
